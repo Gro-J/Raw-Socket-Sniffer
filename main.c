@@ -132,7 +132,7 @@ int main() {
     return 0;
 }
 
-s
+
 void packet_handler(unsigned char* buffer, int size) {
     // 이더넷 헤더 처리
     struct ethhdr *eth = (struct ethhdr *)buffer;
